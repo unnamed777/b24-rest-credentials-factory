@@ -1,5 +1,5 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.2",
     "name": "nav/b24-rest-credentials-factory",
     "description": "Symfony Credentials factory for b24-rest",
     "keywords": ["bitrix"],
