@@ -56,7 +56,6 @@ class CredentialsFactory {
     public function createFromWebhook(string $url): \nav\B24\WebHookCredentials\Memory
     {
         preg_match('#://(.*)/rest/(.*)/(.*)(?:/|$)#smiuU', $url, $matches);
-        var_dump($matches);
 
         return new \nav\B24\WebHookCredentials\Memory([
             'domain' => $matches[1],
